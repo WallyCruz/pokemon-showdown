@@ -105,7 +105,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizard: {
 		num: 6,
 		name: "Charizard",
-		types: ["Fire", "Flying"],
+		types: ["Fire", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100},
 		abilities: {0: "Blaze", H: "Solar Power"},
@@ -195,7 +195,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoise: {
 		num: 9,
 		name: "Blastoise",
-		types: ["Water"],
+		types: ["Water", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 79, atk: 83, def: 100, spa: 85, spd: 105, spe: 78},
 		abilities: {0: "Torrent", H: "Rain Dish"},
@@ -1691,7 +1691,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	geodude: {
 		num: 74,
 		name: "Geodude",
-		types: ["Rock", "Ground"],
+		types: ["Rock"],
 		baseStats: {hp: 40, atk: 80, def: 100, spa: 30, spd: 30, spe: 20},
 		abilities: {0: "Rock Head", 1: "Sturdy", H: "Sand Veil"},
 		heightm: 0.4,
@@ -1719,7 +1719,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	graveler: {
 		num: 75,
 		name: "Graveler",
-		types: ["Rock", "Ground"],
+		types: ["Rock"],
 		baseStats: {hp: 55, atk: 95, def: 115, spa: 45, spd: 45, spe: 35},
 		abilities: {0: "Rock Head", 1: "Sturdy", H: "Sand Veil"},
 		heightm: 1,
@@ -1751,7 +1751,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	golem: {
 		num: 76,
 		name: "Golem",
-		types: ["Rock", "Ground"],
+		types: ["Rock"],
 		baseStats: {hp: 80, atk: 120, def: 130, spa: 55, spd: 65, spe: 45},
 		abilities: {0: "Rock Head", 1: "Sturdy", H: "Sand Veil"},
 		heightm: 1.4,
